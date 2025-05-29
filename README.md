@@ -31,3 +31,8 @@ Creating and organizing a project
 Using the Binder, Corkboard, and Outliner
 Writing and editing in sections
 Compiling your final document
+
+# Zotero plug-in links
+https://github.com/windingwind/zotero-actions-tags
+https://github.com/retorquere/zotero-better-bibtex
+https://github.com/windingwind/zotero-pdf-translate
