@@ -34,5 +34,8 @@ Compiling your final document
 
 # Zotero plug-in links
 https://github.com/windingwind/zotero-actions-tags
+
 https://github.com/retorquere/zotero-better-bibtex
+
 https://github.com/windingwind/zotero-pdf-translate
+
