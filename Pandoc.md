@@ -42,10 +42,10 @@ To set up:
 </table>
 
 ## Reference doc
-https://pandoc.org/MANUAL.html
+
+Pandoc documentation: https://pandoc.org/MANUAL.html
 
 ## CSL
+Zotero style sheets: https://www.zotero.org/styles
 
-https://www.zotero.org/styles
-
-https://github.com/citation-style-language/styles/pull/7424
+Beta Chicago 18th: https://github.com/citation-style-language/styles/pull/7424
