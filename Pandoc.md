@@ -12,14 +12,17 @@ To set up:
 
 # Creating documents
 1. Export from Scrivener 
-Compile for: Multi markdown 
+- Compile for: Multi markdown 
 2. Process through Pandoc: 
-Close all Word files! 
-Cmd 
-Get to directory:
-cd OneDrive - Microsoft\Desktop | cd <full_file_path>
+- Close all Word files! 
+- Cmd 
+- Get to directory:
+
+cd <full_file_path>
+
 cd C:\Users\gilefevr\OneDrive - University of Edinburgh\Doctorate\Papers\pandoc 
-Run Pandoc script:
+- Run Pandoc script:
+  
 pandoc workingpaper.md -s --citeproc -M reference-section-title="Bibliography" --bibliography Hippolytus.bib --csl turabian-no-ibid.csl -o output.docx --reference-doc=custom-reference.docx --from=markdown-example_lists
 3. Open Word and check styles 
 
