@@ -4,11 +4,11 @@ https://davepwsmith.github.io/academic-scrivener-howto/
 
 # Set up
 To set up:
-Install BetterBibTex 
-Export library 
-Install Pandoc 
-Download CSL file 
-Create reference document 
++ Install BetterBibTex plugin
++ Export bibliographic library 
++ Install Pandoc 
++ Download CSL file 
++ Create reference document 
 
 # Creating documents
 1. Export from Scrivener 
