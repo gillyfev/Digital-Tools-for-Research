@@ -4,11 +4,11 @@ https://davepwsmith.github.io/academic-scrivener-howto/
 
 # Set up
 To set up:
-+ Install BetterBibTex plugin
-+ Export bibliographic library 
-+ Install Pandoc 
-+ Download CSL file 
-+ Create reference document 
++ Install BetterBibTex plugin in Zotero
++ Export bibliographic library from Zotero to working folder
++ Install Pandoc onto your PC
++ Download CSL file to working folder
++ Create reference document in working folder
 
 # Creating documents
 1. Export from Scrivener 
@@ -18,12 +18,12 @@ To set up:
 - Open Cmd window 
 - Get to directory:
 
-> cd <full_file_path>
+> cd <full_file_path> {working folder}
 
 > cd C:\Users\gilefevr\OneDrive - University of Edinburgh\Doctorate\Papers\pandoc 
 - Run Pandoc script:
   
-pandoc workingpaper.md -s --citeproc -M reference-section-title="Bibliography" --bibliography Hippolytus.bib --csl turabian-no-ibid.csl -o output.docx --reference-doc=custom-reference.docx --from=markdown-example_lists
+> pandoc workingpaper.md -s --citeproc -M reference-section-title="Bibliography" --bibliography Hippolytus.bib --csl turabian-no-ibid.csl -o output.docx --reference-doc=custom-reference.docx --from=markdown-example_lists
 
 3. Open Word and check styles 
 
@@ -42,8 +42,10 @@ pandoc workingpaper.md -s --citeproc -M reference-section-title="Bibliography" -
 </table>
 
 ## Reference doc
+https://pandoc.org/MANUAL.html
 
 ## CSL
 
 https://www.zotero.org/styles
+
 https://github.com/citation-style-language/styles/pull/7424
